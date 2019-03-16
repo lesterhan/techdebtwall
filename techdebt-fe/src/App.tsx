@@ -1,30 +1,27 @@
 import * as React from 'react';
-import { Container, Row, Col } from 'react-grid-system';
-import Quadrant from './components/Quadrant';
+import WallQuadrant from './components/WallQuadrant';
+import VerticalAxis from './components/VerticalAxis';
+import HorizontalAxis from './components/HorizontalAxis';
 import './css/App.css';
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <Container>
-          <Row>
-            <Col sm={6}>
-              <Quadrant />
-            </Col>
-            <Col sm={6}>
-              <Quadrant />
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={6}>
-              <Quadrant />
-            </Col>
-            <Col sm={6}>
-              <Quadrant />
-            </Col>
-          </Row>
-        </Container>  
+      <div className='App'>
+        <div className='wall_container'>
+          <VerticalAxis />
+          <div className='graph_area'>
+            <div className='graph_area_horizontal_half'>
+              <WallQuadrant quadrant={2}/>
+              <WallQuadrant quadrant={1}/>
+            </div>
+            <div className='graph_area_horizontal_half'>
+              <WallQuadrant quadrant={3}/>
+              <WallQuadrant quadrant={4}/>
+            </div>
+            <HorizontalAxis />
+          </div>
+        </div>
       </div>
     );
   }

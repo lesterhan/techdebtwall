@@ -1,5 +1,7 @@
 .quadrant {
   height: 100%;
+  width: 50%;
   color: white;
   background: blue;
+  display: inline-block;
 }

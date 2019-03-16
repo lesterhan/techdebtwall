@@ -1,28 +1,21 @@
 .App {
   height: 100%;
+  width: 100%;
 }
 
-#tdw-text{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 48px;
-	font-weight: 800;
+.wall_container {
+  display: flex;
   height: 100%;
-  color: white;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	background-image: -webkit-linear-gradient(92deg,#42a1f4,#2ae0bf);
-    -webkit-animation: hue 5s infinite linear;
+  width: 100%;
 }
 
-@keyframes hue {
-    from {
-      -webkit-filter: hue-rotate(0deg);
-    }
-    
-    to {
-      -webkit-filter: hue-rotate(360deg);
-    }
+.graph_area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.graph_area_horizontal_half {
+  flex: 1;
 }

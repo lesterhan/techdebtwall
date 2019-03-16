@@ -1,0 +1,11 @@
+.vertical_axis {
+  flex: 0 0 45px;
+  height: 100%;
+  background-color: brown;
+}
+
+.horizontal_axis {
+  width: 100%;
+  height: 45px;
+  background-color: brown;
+}
