@@ -37,3 +37,10 @@ compileTestKotlin {
 		jvmTarget = '1.8'
 	}
 }
+
+tasks.register("buildall") {
+	delete 'src/main/resources/public/'
+	exec {
+		commandLine 'sh', 'scripts/buildFrontend.sh'
+	}
+}
