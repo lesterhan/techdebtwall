@@ -2,6 +2,28 @@
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
+### Frontend ###
+
+# dependencies
+/techdebt-fe/node_modules
+
+# testing
+/techdebt-fe/coverage
+
+# production
+/techdebt-fe/build
+
+# misc
+/techdebt-fe/.DS_Store
+/techdebt-fe/.env.local
+/techdebt-fe/.env.development.local
+/techdebt-fe/.env.test.local
+/techdebt-fe/.env.production.local
+
+/techdebt-fe/npm-debug.log*
+/techdebt-fe/yarn-debug.log*
+/techdebt-fe/yarn-error.log*
+
 ### STS ###
 .apt_generated
 .classpath
@@ -27,3 +49,4 @@
 
 ### VS Code ###
 .vscode/
+
