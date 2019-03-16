@@ -9,7 +9,9 @@ class App extends React.Component {
     return (
       <div className='App'>
         <div className='wall_container'>
-          <VerticalAxis />
+          <div className='vertical_axis_container'>
+            <VerticalAxis />
+          </div>
           <div className='graph_area'>
             <div className='graph_area_horizontal_half'>
               <WallQuadrant quadrant={2}/>
@@ -19,7 +21,9 @@ class App extends React.Component {
               <WallQuadrant quadrant={3}/>
               <WallQuadrant quadrant={4}/>
             </div>
-            <HorizontalAxis />
+            <div className='horizontal_axis_container'>
+              <HorizontalAxis />
+            </div>
           </div>
         </div>
       </div>

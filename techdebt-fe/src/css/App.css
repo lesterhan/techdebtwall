@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.vertical_axis_container {
+  flex: 0 0 45px;
+}
+
 .graph_area {
   flex: 1;
   display: flex;

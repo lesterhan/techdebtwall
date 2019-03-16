@@ -7,7 +7,7 @@ export interface Props {
 
 function WallQuadrant({quadrant}: Props) {
   return (
-    <div className='quadrant'>
+    <div className={'quadrant ' + 'quadrant_number_' + quadrant}>
       This is quadrant number {quadrant}
     </div>
   )

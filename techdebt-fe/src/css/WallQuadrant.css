@@ -1,7 +1,19 @@
 .quadrant {
   height: 100%;
   width: 50%;
-  color: white;
-  background: blue;
   display: inline-block;
+  box-sizing: border-box;
+}
+
+.quadrant_number_1 {
+  border-left: 2px dotted #555;
+}
+
+.quadrant_number_3 {
+  border-top: 2px dotted #555;
+}
+
+.quadrant_number_4 {
+  border-top: 2px dotted #555;
+  border-left: 2px dotted #555;
 }
