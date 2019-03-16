@@ -14,5 +14,4 @@ class ApplicationTests {
 	fun contextLoads() {
 		assertThat(true).isEqualTo(true)
 	}
-
 }

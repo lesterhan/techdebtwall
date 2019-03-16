@@ -3,7 +3,6 @@
 !gradle/wrapper/gradle-wrapper.jar
 
 ### Frontend ###
-
 # dependencies
 /techdebt-fe/node_modules
 
