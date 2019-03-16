@@ -1,2 +1,2 @@
-##Tech Debt Wall
+# Tech Debt Wall
 An app to track tech debts 🏦
